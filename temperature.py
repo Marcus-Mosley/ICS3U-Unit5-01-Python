@@ -5,11 +5,12 @@
 # This program converts a celsius temperature to fahrenheit
 
 
-celsius = int(input("Enter the temperature in celsius: "))
-
-
-def celsius_fahrenheit():
+def fahrenheit():
     # This function converts celsius temperatures to fahrenheit
+
+    # Input
+
+    celsius = int(input("Enter the temperature in celsius: "))
 
     # Process
 
@@ -24,7 +25,7 @@ def celsius_fahrenheit():
 def main():
     # This function calls other functions
 
-    celsius_fahrenheit()
+    fahrenheit()
 
 
 if __name__ == "__main__":
